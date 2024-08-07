@@ -22,6 +22,5 @@ public class DurationMain {
 		Duration between = Duration.between(start, end);
 		System.out.println("차이: " + between.getSeconds() + "초");
 		System.out.println("근무 시간: " + between.toHours() + "시간" + between.toMinutesPart() + "분");
-
 	}
 }
